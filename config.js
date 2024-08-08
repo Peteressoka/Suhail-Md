@@ -6,7 +6,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL ||"postgresql://zokou_dadas_krma_user:jEC1YdlDrGMUQ0uyOVCGl5pnF6sGEjgJ@dpg-cqps41rqf0us7394f1jg-a/zokou_dadas_krma"                       // put your app url here,
+global.appUrl=process.env.APP_URL ||"postgresql://suhail_databas_user:4EMhqdBFLB5sVlrMBqdrEU9E7XHOvnuf@dpg-cqq6o5ogph6c7385lpp0-a/suhail_databas"                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
